@@ -240,16 +240,7 @@
           "data": "eiNbwdtZym8upGtK09jWKoRY21N9od30nvmQoWN84BQ="
         }
       },
-      "18": {
-        "private": {
-          "type": "Buffer",
-          "data": "wHY/Ir3YZ+Je/vhYY/0Yf20HfuDBJihDvNclkXZZDUk="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "fEOxy9fkdRiVPfrn5dS2p338WgHofv9blGpg2nBGrDs="
-        }
-      },
+      "18": null,
       "19": {
         "private": {
           "type": "Buffer",
@@ -393,8 +384,8 @@
               },
               "BXDoQjHghtZIeeWkc8+XJOLQrEdD2R0UYorptaw4CT41": {
                 "chainKey": {
-                  "counter": 5,
-                  "key": "zBppKPEM/GwdYRtlXXSLDI1zrN5SxBRanSXhYXUAChg="
+                  "counter": 9,
+                  "key": "Aj0JMwnK8K6ZJ/B5EQgabr0SeLnioXjS0HbnvOGXkoQ="
                 },
                 "chainType": 1,
                 "messageKeys": {}
@@ -564,8 +555,8 @@
             "_chains": {
               "Bf4I6FxnQnGxr2anvm3e24oFEyNWic7KyKMILZyn9no4": {
                 "chainKey": {
-                  "counter": 2,
-                  "key": "8T10+VITqaNRQaLtfRCHS73+aQM339sh7/s2XWO8Qfs="
+                  "counter": 6,
+                  "key": "AjjXadUZk45CIvbU21GM52IS8YPMpWiWkEqG0e5R5lA="
                 },
                 "chainType": 1,
                 "messageKeys": {}
@@ -603,8 +594,8 @@
             "_chains": {
               "BdrrH2NIX0rL1ZU8GZ1HrAumzdF+OWqHuK2JdjD+Vg0A": {
                 "chainKey": {
-                  "counter": 0,
-                  "key": "wAPIRBWsaL5v16FSu//R9R8fFnWISYqM8LgdujOEGhs="
+                  "counter": 2,
+                  "key": "0oOMxj+xiML3z2FEbID6A9SFyU2mDeD8j5mJwxCtXEU="
                 },
                 "chainType": 2,
                 "messageKeys": {}
@@ -613,6 +604,49 @@
                 "chainKey": {
                   "counter": -1,
                   "key": "tlYY+E9Hpe5X1Iu3lzkcsrgPqLTwd/ObtcPLVkblVyc="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            }
+          }
+        },
+        "version": "v1"
+      },
+      "6289690576360.0": {
+        "_sessions": {
+          "BcAQakp2t+txUwwl3sHfPlToawjYMpEk/a9BWCbnQwV+": {
+            "registrationId": 1204271417,
+            "currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "BUUd67zeVLXIYswMCQG5WOvE1VemDWFBV6RCYbQGBu0a",
+                "privKey": "MOegYWlyUNUYVO6NwnTYfYbMFPdpQO+M6HTqCARt2nU="
+              },
+              "lastRemoteEphemeralKey": "BRi7GlElonmVfTar7OwV21DCQy8UgwvaaCsSRUMk/h1L",
+              "previousCounter": 0,
+              "rootKey": "Wd7HunrcnZewNNIDIDNgxFrg9zkW+LqOlXTX+atp0/k="
+            },
+            "indexInfo": {
+              "baseKey": "BcAQakp2t+txUwwl3sHfPlToawjYMpEk/a9BWCbnQwV+",
+              "baseKeyType": 2,
+              "closed": -1,
+              "used": 1658418392503,
+              "created": 1658418392503,
+              "remoteIdentityKey": "BZaEz2lXNtA80Dij33lquF4TGaZWrqRnuS+nZFzt7EEU"
+            },
+            "_chains": {
+              "BRi7GlElonmVfTar7OwV21DCQy8UgwvaaCsSRUMk/h1L": {
+                "chainKey": {
+                  "counter": 0,
+                  "key": "xeKlpiTXi8StlJVBzX6VNZxW6wA2J3XCYLU9vw+LT0c="
+                },
+                "chainType": 2,
+                "messageKeys": {}
+              },
+              "BUUd67zeVLXIYswMCQG5WOvE1VemDWFBV6RCYbQGBu0a": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "vkkNsAFiwV58tgF0cce4dtONQS0sEIIW3C5EHrF07Gc="
                 },
                 "chainType": 1,
                 "messageKeys": {}
@@ -735,6 +769,20 @@
           }
         }
       }
+    },
+    "senderKeys": {
+      "status@broadcast::6289690576360::0": [
+        {
+          "senderKeyId": 37083793,
+          "senderChainKey": {
+            "iteration": 1,
+            "seed": "I1liBkiqEJwEfpgIkBF9701Hpaiz4twV4zxrLfmhDRI="
+          },
+          "senderSigningKey": {
+            "public": "BconnrXX5XnjTiLOTmtBi5KBoDN6h1DM1JIqGyWFPDpX"
+          }
+        }
+      ]
     }
   }
 }
